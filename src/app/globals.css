@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type="password"] {
+    -webkit-text-stroke-width: 0.5em;
+    letter-spacing: 0.5em;
+    color: white;
+  }
+}
